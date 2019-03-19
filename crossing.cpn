@@ -99,13 +99,6 @@
           <id>n</id>
           <layout>var n: INT;</layout>
         </var>
-        <var id="ID1412349389">
-          <type>
-            <id>INT</id>
-          </type>
-          <id>p</id>
-          <layout>var p: INT;</layout>
-        </var>
         <var id="ID1412364707">
           <type>
             <id>INT</id>
@@ -113,11 +106,6 @@
           <id>counter</id>
           <layout>var counter: INT;</layout>
         </var>
-        <ml id="ID1412362887">fun DeleteCars(left,right) = 
-1`1 ++ 1`2;
-          <layout>fun DeleteCars(left,right) = 
-1`1 ++ 1`2;</layout>
-        </ml>
       </block>
     </globbox>
     <page id="ID1412480109">
@@ -803,11 +791,11 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>TRAFFIC_LIGHTS</text>
-        <box w="60.000000"
+        <box w="134.000000"
              h="40.000000"/>
         <subst subpage="ID1413199639"
                portsock="(ID1413225969,ID1413083246)(ID1413227378,ID1413084307)">
@@ -828,7 +816,7 @@
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1413192939">
-          <posattr x="366.000000"
+          <posattr x="329.000000"
                    y="-39.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -842,7 +830,7 @@
                 version="4.0.1"/>
         </cond>
         <time id="ID1413192940">
-          <posattr x="449.500000"
+          <posattr x="486.500000"
                    y="-39.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -856,7 +844,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1413192941">
-          <posattr x="469.500000"
+          <posattr x="506.500000"
                    y="-122.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -870,7 +858,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1413192943">
-          <posattr x="337.000000"
+          <posattr x="300.000000"
                    y="-101.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1645,7 +1633,7 @@
         </initmark>
       </place>
       <place id="ID1412376477">
-        <posattr x="-798.000000"
+        <posattr x="-840.000000"
                  y="-107.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -1656,19 +1644,19 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>INITIAL_LANE</text>
-        <ellipse w="60.000000"
+        <ellipse w="92.000000"
                  h="40.000000"/>
-        <token x="-49.000000"
-               y="13.000000"/>
+        <token x="-24.000000"
+               y="-16.000000"/>
         <marking x="-14.000000"
                  y="-13.000000"
                  hidden="false">
           <snap snap_id="5"
-                anchor.horizontal="3"
+                anchor.horizontal="1"
                 anchor.vertical="1"/>
         </marking>
         <type id="ID1412376478">
-          <posattr x="-798.000000"
+          <posattr x="-840.000000"
                    y="-138.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1682,7 +1670,7 @@
                 version="4.0.1">CARxINT</text>
         </type>
         <initmark id="ID1412408973">
-          <posattr x="-798.000000"
+          <posattr x="-840.000000"
                    y="-76.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1697,7 +1685,7 @@
         </initmark>
       </place>
       <place id="ID1412376503">
-        <posattr x="-420.000000"
+        <posattr x="-435.000000"
                  y="0.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -1720,7 +1708,7 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412376504">
-          <posattr x="-359.500000"
+          <posattr x="-374.500000"
                    y="-23.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1734,7 +1722,7 @@
                 version="4.0.1">CARxINT</text>
         </type>
         <initmark id="ID1412376505">
-          <posattr x="-411.000000"
+          <posattr x="-426.000000"
                    y="25.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1749,7 +1737,7 @@
         </initmark>
       </place>
       <place id="ID1412376892">
-        <posattr x="-1082.000000"
+        <posattr x="-1176.000000"
                  y="-107.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -1760,7 +1748,7 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>GENERATOR</text>
-        <ellipse w="60.000000"
+        <ellipse w="84.000000"
                  h="40.000000"/>
         <token x="-19.000000"
                y="-16.000000"/>
@@ -1772,7 +1760,7 @@
                 anchor.vertical="1"/>
         </marking>
         <type id="ID1412376893">
-          <posattr x="-1042.000000"
+          <posattr x="-1128.000000"
                    y="-130.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1786,7 +1774,7 @@
                 version="4.0.1">UNIT</text>
         </type>
         <initmark id="ID1412379183">
-          <posattr x="-1078.000000"
+          <posattr x="-1176.000000"
                    y="-76.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1929,7 +1917,7 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>LEFT_EXIT</text>
-        <ellipse w="60.000000"
+        <ellipse w="88.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -1941,7 +1929,7 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412936696">
-          <posattr x="116.500000"
+          <posattr x="125.500000"
                    y="-23.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1955,7 +1943,7 @@
                 version="4.0.1">CARxINT</text>
         </type>
         <initmark id="ID1412936697">
-          <posattr x="122.000000"
+          <posattr x="131.000000"
                    y="23.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1970,7 +1958,7 @@
         </initmark>
         <port id="ID1412946930"
               type="I/O">
-          <posattr x="41.000000"
+          <posattr x="32.000000"
                    y="-16.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1994,7 +1982,7 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>STRAIGHT_EXIT</text>
-        <ellipse w="60.000000"
+        <ellipse w="128.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -2006,7 +1994,7 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412937220">
-          <posattr x="119.500000"
+          <posattr x="143.500000"
                    y="-130.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2020,7 +2008,7 @@
                 version="4.0.1">CARxINT</text>
         </type>
         <initmark id="ID1412937221">
-          <posattr x="125.000000"
+          <posattr x="149.000000"
                    y="-83.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2035,7 +2023,7 @@
         </initmark>
         <port id="ID1412947499"
               type="I/O">
-          <posattr x="44.000000"
+          <posattr x="20.000000"
                    y="-123.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2059,7 +2047,7 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>RIGHT_EXIT</text>
-        <ellipse w="60.000000"
+        <ellipse w="104.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -2071,7 +2059,7 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412937747">
-          <posattr x="120.500000"
+          <posattr x="135.500000"
                    y="-260.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2085,7 +2073,7 @@
                 version="4.0.1">CARxINT</text>
         </type>
         <initmark id="ID1412937748">
-          <posattr x="126.000000"
+          <posattr x="141.000000"
                    y="-213.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2100,7 +2088,7 @@
         </initmark>
         <port id="ID1412948071"
               type="I/O">
-          <posattr x="45.000000"
+          <posattr x="30.000000"
                    y="-253.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2165,7 +2153,7 @@
         </initmark>
       </place>
       <place id="ID1413062740">
-        <posattr x="-126.000000"
+        <posattr x="-84.000000"
                  y="168.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -2188,7 +2176,7 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1413062741">
-          <posattr x="-78.500000"
+          <posattr x="-36.500000"
                    y="144.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2202,7 +2190,7 @@
                 version="4.0.1">LIGHTS</text>
         </type>
         <initmark id="ID1413749972">
-          <posattr x="-69.000000"
+          <posattr x="-27.000000"
                    y="191.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2217,7 +2205,7 @@
         </initmark>
         <port id="ID1413065749"
               type="I/O">
-          <posattr x="-150.000000"
+          <posattr x="-108.000000"
                    y="151.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2242,12 +2230,12 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>TAKE_LEFT_LANE</text>
-        <box w="60.000000"
+        <box w="134.000000"
              h="40.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412437677">
-          <posattr x="-608.000000"
+          <posattr x="-571.000000"
                    y="56.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2261,7 +2249,7 @@
                 version="4.0.1">[car = LEFT, n &lt; 6]</text>
         </cond>
         <time id="ID1412376618">
-          <posattr x="-572.500000"
+          <posattr x="-535.500000"
                    y="31.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2275,7 +2263,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412376619">
-          <posattr x="-552.500000"
+          <posattr x="-515.500000"
                    y="-52.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2289,7 +2277,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412376621">
-          <posattr x="-685.000000"
+          <posattr x="-722.000000"
                    y="-31.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2305,7 +2293,7 @@
       </trans>
       <trans id="ID1412376951"
              explicit="false">
-        <posattr x="-924.000000"
+        <posattr x="-1008.000000"
                  y="-107.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -2316,13 +2304,13 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>GENERATE_CAR</text>
-        <box w="60.000000"
-             h="40.000000"/>
+        <box w="104.000000"
+             h="52.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1413537323">
-          <posattr x="-963.000000"
-                   y="-76.000000"/>
+          <posattr x="-1069.000000"
+                   y="-70.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2335,8 +2323,8 @@
                 version="4.0.1"/>
         </cond>
         <time id="ID1412376953">
-          <posattr x="-879.500000"
-                   y="-76.000000"/>
+          <posattr x="-941.500000"
+                   y="-70.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2349,8 +2337,8 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412376954">
-          <posattr x="-859.500000"
-                   y="-159.000000"/>
+          <posattr x="-921.500000"
+                   y="-165.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2363,8 +2351,8 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412376956">
-          <posattr x="-992.000000"
-                   y="-138.000000"/>
+          <posattr x="-1098.000000"
+                   y="-144.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2390,7 +2378,7 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>TAKE_STRAIGHT_LANE</text>
-        <box w="60.000000"
+        <box w="148.000000"
              h="40.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
@@ -2409,7 +2397,7 @@
                 version="4.0.1">[car = STRAIGHT, n &lt; 6]</text>
         </cond>
         <time id="ID1412447070">
-          <posattr x="-573.500000"
+          <posattr x="-529.500000"
                    y="-76.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2423,7 +2411,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412447071">
-          <posattr x="-553.500000"
+          <posattr x="-509.500000"
                    y="-159.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2437,7 +2425,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412447073">
-          <posattr x="-686.000000"
+          <posattr x="-730.000000"
                    y="-138.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2534,16 +2522,16 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>TAKE_RIGHT_LANE</text>
-        <box w="60.000000"
+        <box w="124.000000"
              h="40.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412893762">
-          <posattr x="-609.000000"
+          <posattr x="-577.000000"
                    y="-198.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2557,7 +2545,7 @@
                 version="4.0.1">[car = RIGHT, n &lt; 6]</text>
         </cond>
         <time id="ID1412893763">
-          <posattr x="-570.500000"
+          <posattr x="-538.500000"
                    y="-206.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2571,7 +2559,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412893764">
-          <posattr x="-550.500000"
+          <posattr x="-518.500000"
                    y="-289.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2585,7 +2573,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412893766">
-          <posattr x="-683.000000"
+          <posattr x="-715.000000"
                    y="-268.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2601,14 +2589,14 @@
       </trans>
       <trans id="ID1412935132"
              explicit="false">
-        <posattr x="-237.000000"
+        <posattr x="-210.000000"
                  y="0.000000"/>
         <fillattr colour="White"
                   pattern=""
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>ENTER_L</text>
@@ -2617,7 +2605,7 @@
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412935133">
-          <posattr x="-254.500000"
+          <posattr x="-227.500000"
                    y="31.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2631,7 +2619,7 @@
                 version="4.0.1">[n&gt;0]</text>
         </cond>
         <time id="ID1412935134">
-          <posattr x="-192.500000"
+          <posattr x="-165.500000"
                    y="31.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2645,7 +2633,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412935135">
-          <posattr x="-172.500000"
+          <posattr x="-145.500000"
                    y="-52.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2659,7 +2647,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412935137">
-          <posattr x="-305.000000"
+          <posattr x="-278.000000"
                    y="-31.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2675,14 +2663,14 @@
       </trans>
       <trans id="ID1412935650"
              explicit="false">
-        <posattr x="-239.000000"
+        <posattr x="-210.000000"
                  y="-107.000000"/>
         <fillattr colour="White"
                   pattern=""
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>ENTER_S</text>
@@ -2691,7 +2679,7 @@
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412935651">
-          <posattr x="-256.500000"
+          <posattr x="-227.500000"
                    y="-76.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2705,7 +2693,7 @@
                 version="4.0.1">[n&gt;0]</text>
         </cond>
         <time id="ID1412935652">
-          <posattr x="-194.500000"
+          <posattr x="-165.500000"
                    y="-76.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2719,7 +2707,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412935653">
-          <posattr x="-174.500000"
+          <posattr x="-145.500000"
                    y="-159.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2733,7 +2721,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412935655">
-          <posattr x="-307.000000"
+          <posattr x="-278.000000"
                    y="-138.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2749,14 +2737,14 @@
       </trans>
       <trans id="ID1412936171"
              explicit="false">
-        <posattr x="-240.000000"
+        <posattr x="-210.000000"
                  y="-237.000000"/>
         <fillattr colour="White"
                   pattern=""
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>ENTER_R</text>
@@ -2765,7 +2753,7 @@
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412936172">
-          <posattr x="-257.500000"
+          <posattr x="-227.500000"
                    y="-206.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2779,7 +2767,7 @@
                 version="4.0.1">[n&gt;0]</text>
         </cond>
         <time id="ID1412936173">
-          <posattr x="-195.500000"
+          <posattr x="-165.500000"
                    y="-206.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2793,7 +2781,7 @@
                 version="4.0.1"/>
         </time>
         <code id="ID1412936174">
-          <posattr x="-175.500000"
+          <posattr x="-145.500000"
                    y="-289.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2807,7 +2795,7 @@
                 version="4.0.1"/>
         </code>
         <priority id="ID1412936176">
-          <posattr x="-308.000000"
+          <posattr x="-278.000000"
                    y="-268.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2830,7 +2818,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>EXIT</text>
@@ -2913,8 +2901,8 @@
         <transend idref="ID1412376616"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1412376661">
-          <posattr x="-700.000000"
-                   y="-60.000000"/>
+          <posattr x="-718.000000"
+                   y="-59.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2945,7 +2933,7 @@
         <transend idref="ID1412376616"/>
         <placeend idref="ID1412376503"/>
         <annot id="ID1412376746">
-          <posattr x="-522.000000"
+          <posattr x="-512.000000"
                    y="18.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2977,7 +2965,7 @@
         <transend idref="ID1412376951"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1412377079">
-          <posattr x="-865.000000"
+          <posattr x="-925.000000"
                    y="-89.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3008,9 +2996,9 @@
                    currentcyckle="2"/>
         <transend idref="ID1412376951"/>
         <placeend idref="ID1412376892"/>
-        <annot id="ID1412892877">
-          <posattr x="-889.000000"
-                   y="-59.000000"/>
+        <annot id="ID1414550374">
+          <posattr x="-1003.000000"
+                   y="-96.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3041,7 +3029,7 @@
         <transend idref="ID1412447068"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1412447728">
-          <posattr x="-708.000000"
+          <posattr x="-744.000000"
                    y="-89.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3073,7 +3061,7 @@
         <transend idref="ID1412447068"/>
         <placeend idref="ID1412327588"/>
         <annot id="ID1412448384">
-          <posattr x="-527.000000"
+          <posattr x="-506.000000"
                    y="-89.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3137,8 +3125,8 @@
         <transend idref="ID1412893761"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1412893874">
-          <posattr x="-729.000000"
-                   y="-179.000000"/>
+          <posattr x="-757.000000"
+                   y="-177.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3169,7 +3157,7 @@
         <transend idref="ID1412893761"/>
         <placeend idref="ID1412893817"/>
         <annot id="ID1412893924">
-          <posattr x="-533.000000"
+          <posattr x="-517.000000"
                    y="-219.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3201,7 +3189,7 @@
         <transend idref="ID1412935132"/>
         <placeend idref="ID1412376503"/>
         <annot id="ID1412940892">
-          <posattr x="-326.000000"
+          <posattr x="-321.000000"
                    y="-4.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3233,7 +3221,7 @@
         <transend idref="ID1412935132"/>
         <placeend idref="ID1412936695"/>
         <annot id="ID1412941431">
-          <posattr x="-84.000000"
+          <posattr x="-77.000000"
                    y="18.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3265,7 +3253,7 @@
         <transend idref="ID1412935650"/>
         <placeend idref="ID1412327588"/>
         <annot id="ID1412941973">
-          <posattr x="-331.000000"
+          <posattr x="-317.000000"
                    y="-113.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3297,7 +3285,7 @@
         <transend idref="ID1412935650"/>
         <placeend idref="ID1412937219"/>
         <annot id="ID1412942518">
-          <posattr x="-84.000000"
+          <posattr x="-85.000000"
                    y="-89.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3329,7 +3317,7 @@
         <transend idref="ID1412936171"/>
         <placeend idref="ID1412893817"/>
         <annot id="ID1412943066">
-          <posattr x="-344.000000"
+          <posattr x="-332.000000"
                    y="-219.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3361,7 +3349,7 @@
         <transend idref="ID1412936171"/>
         <placeend idref="ID1412937746"/>
         <annot id="ID1412944717">
-          <posattr x="-85.000000"
+          <posattr x="-80.000000"
                    y="-219.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3457,8 +3445,8 @@
         <transend idref="ID1412935132"/>
         <placeend idref="ID1413062740"/>
         <annot id="ID1413067768">
-          <posattr x="-207.000000"
-                   y="116.000000"/>
+          <posattr x="-169.000000"
+                   y="118.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3489,7 +3477,7 @@
         <transend idref="ID1412935650"/>
         <placeend idref="ID1413062740"/>
         <annot id="ID1413068784">
-          <posattr x="-188.000000"
+          <posattr x="-153.000000"
                    y="23.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3521,7 +3509,7 @@
         <transend idref="ID1412936171"/>
         <placeend idref="ID1413062740"/>
         <annot id="ID1413069803">
-          <posattr x="-167.000000"
+          <posattr x="-130.000000"
                    y="-12.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3553,7 +3541,7 @@
         <transend idref="ID1412893761"/>
         <placeend idref="ID1412893817"/>
         <annot id="ID1413437760">
-          <posattr x="-531.000000"
+          <posattr x="-516.000000"
                    y="-255.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3585,7 +3573,7 @@
         <transend idref="ID1412936171"/>
         <placeend idref="ID1412893817"/>
         <annot id="ID1413439565">
-          <posattr x="-329.000000"
+          <posattr x="-314.000000"
                    y="-250.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3617,7 +3605,7 @@
         <transend idref="ID1412447068"/>
         <placeend idref="ID1412327588"/>
         <annot id="ID1413485543">
-          <posattr x="-533.000000"
+          <posattr x="-510.000000"
                    y="-114.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3649,7 +3637,7 @@
         <transend idref="ID1412935650"/>
         <placeend idref="ID1412327588"/>
         <annot id="ID1413487426">
-          <posattr x="-329.000000"
+          <posattr x="-314.000000"
                    y="-89.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3681,7 +3669,7 @@
         <transend idref="ID1412376616"/>
         <placeend idref="ID1412376503"/>
         <annot id="ID1413493088">
-          <posattr x="-521.000000"
+          <posattr x="-511.000000"
                    y="-18.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3713,7 +3701,7 @@
         <transend idref="ID1412935132"/>
         <placeend idref="ID1412376503"/>
         <annot id="ID1413494983">
-          <posattr x="-323.000000"
+          <posattr x="-317.000000"
                    y="18.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3745,8 +3733,8 @@
         <transend idref="ID1412893761"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1413609714">
-          <posattr x="-684.500000"
-                   y="-152.000000"/>
+          <posattr x="-704.500000"
+                   y="-153.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3777,7 +3765,7 @@
         <transend idref="ID1412447068"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1413611786">
-          <posattr x="-705.000000"
+          <posattr x="-741.000000"
                    y="-109.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3809,8 +3797,8 @@
         <transend idref="ID1412376616"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1413613861">
-          <posattr x="-730.500000"
-                   y="-35.000000"/>
+          <posattr x="-760.500000"
+                   y="-40.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3841,7 +3829,7 @@
         <transend idref="ID1412376951"/>
         <placeend idref="ID1412376477"/>
         <annot id="ID1413645231">
-          <posattr x="-863.000000"
+          <posattr x="-923.000000"
                    y="-125.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3873,7 +3861,7 @@
         <transend idref="ID1412935132"/>
         <placeend idref="ID1412936695"/>
         <annot id="ID1414134896">
-          <posattr x="-84.000000"
+          <posattr x="-77.000000"
                    y="-12.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3905,7 +3893,7 @@
         <transend idref="ID1412935650"/>
         <placeend idref="ID1412937219"/>
         <annot id="ID1414137610">
-          <posattr x="-83.000000"
+          <posattr x="-85.000000"
                    y="-125.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3937,7 +3925,7 @@
         <transend idref="ID1412936171"/>
         <placeend idref="ID1412937746"/>
         <annot id="ID1414140327">
-          <posattr x="-83.000000"
+          <posattr x="-79.000000"
                    y="-255.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -4190,7 +4178,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>TURN_ON_V_LEFT_LIGHT</text>
@@ -4264,7 +4252,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>TURN_ON_V_LIGHT</text>
@@ -4338,7 +4326,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>TURN_ON_H_LEFT_LIGHT</text>
@@ -4412,7 +4400,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>TURN_ON_H_LIGHT</text>
@@ -4771,22 +4759,7 @@
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10007.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10008.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10004.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10011.enable">
+      <option name="extensions.10005.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -4796,12 +4769,12 @@
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10001.enable">
+      <option name="extensions.10008.enable">
         <value>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10005.enable">
+      <option name="extensions.10011.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -4816,12 +4789,27 @@
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10007.options.discover">
+      <option name="extensions.10007.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10004.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10001.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10011.options.disable">
         <value>
           <boolean>false</boolean>
         </value>
       </option>
-      <option name="extensions.10011.options.disable">
+      <option name="extensions.10007.options.discover">
         <value>
           <boolean>false</boolean>
         </value>
@@ -5029,9 +5017,27 @@
                  width="1554"
                  height="873">
         <sheets>
+          <cpnsheet id="ID1412481693"
+                    panx="-15.000000"
+                    pany="132.000000"
+                    zoom="1.000000"
+                    instance="ID1412480111">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1412878983"
+                    panx="413.000000"
+                    pany="-50.000000"
+                    zoom="1.000000"
+                    instance="ID1412860291">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
           <cpnsheet id="ID1412880708"
-                    panx="625.000000"
-                    pany="2.000000"
+                    panx="654.000000"
+                    pany="-2.000000"
                     zoom="1.000000"
                     instance="ID1412853246">
             <zorder>
@@ -5065,37 +5071,19 @@
               <position value="0"/>
             </zorder>
           </cpnsheet>
-          <cpnsheet id="ID1412481693"
-                    panx="-12.000000"
-                    pany="132.000000"
-                    zoom="1.000000"
-                    instance="ID1412480111">
-            <zorder>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1412878983"
-                    panx="617.000000"
-                    pany="-1.000000"
-                    zoom="1.000000"
-                    instance="ID1412860291">
-            <zorder>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
         </sheets>
         <zorder>
-          <position value="4"/>
-          <position value="2"/>
           <position value="3"/>
-          <position value="0"/>
+          <position value="2"/>
+          <position value="4"/>
           <position value="5"/>
+          <position value="0"/>
           <position value="1"/>
         </zorder>
       </cpnbinder>
     </binders>
     <monitorblock name="Monitors"/>
-    <IndexNode expanded="true">
+    <IndexNode expanded="false">
       <IndexNode expanded="false"/>
       <IndexNode expanded="false"/>
       <IndexNode expanded="false">
@@ -5192,10 +5180,8 @@
           <IndexNode expanded="false"/>
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
-          <IndexNode expanded="true"/>
-          <IndexNode expanded="true"/>
-          <IndexNode expanded="true"/>
-          <IndexNode expanded="true"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
         </IndexNode>
       </IndexNode>
       <IndexNode expanded="true"/>
