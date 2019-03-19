@@ -446,7 +446,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>4_UP_ROAD</text>
+        <text>UP_ROAD</text>
         <box w="124.000000"
              h="54.000000"/>
         <subst subpage="ID6"
@@ -465,8 +465,8 @@
                       bold="false"/>
           </subpageinfo>
         </subst>
-        <binding x="7.200000"
-                 y="-3.000000"/>
+        <binding x="82.200000"
+                 y="3.000000"/>
         <cond id="ID1412493336">
           <posattr x="-125.000000"
                    y="416.000000"/>
@@ -536,7 +536,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>1_DOWN_ROAD</text>
+        <text>DOWN_ROAD</text>
         <box w="120.000000"
              h="50.000000"/>
         <subst subpage="ID6"
@@ -626,7 +626,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>3_RIGHT_ROAD</text>
+        <text>RIGHT_ROAD</text>
         <box w="126.000000"
              h="56.000000"/>
         <subst subpage="ID6"
@@ -716,7 +716,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>2_LEFT_ROAD</text>
+        <text>LEFT_ROAD</text>
         <box w="110.000000"
              h="50.000000"/>
         <subst subpage="ID6"
@@ -806,13 +806,13 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>TRAFFIC_LIGHTS</text>
         <box w="60.000000"
              h="40.000000"/>
         <subst subpage="ID1413199639"
                portsock="(ID1413225969,ID1413083246)(ID1413227378,ID1413084307)">
           <subpageinfo id="ID1413205254"
-                       name="Lights">
+                       name="TRAFFIC_LIGHTS">
             <posattr x="392.500000"
                      y="-94.000000"/>
             <fillattr colour="White"
@@ -1655,7 +1655,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>INITIAL_LANE</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-49.000000"
@@ -1759,7 +1759,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>GENERATOR</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-19.000000"
@@ -2241,7 +2241,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>TAKE_LEFT_LANE</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2315,7 +2315,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>GENERATE_CAR</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2389,7 +2389,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>TAKE_STRAIGHT_LANE</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2463,7 +2463,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>TAKE_EXIT_LANE</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2537,7 +2537,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>TAKE_RIGHT_LANE</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2833,7 +2833,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>EXIT</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -3858,7 +3858,7 @@
       <constraints/>
     </page>
     <page id="ID1413199639">
-      <pageattr name="Lights"/>
+      <pageattr name="TRAFFIC_LIGHTS"/>
       <place id="ID1413225969">
         <posattr x="546.000000"
                  y="227.000000"/>
@@ -4349,7 +4349,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>PASS_INITIAL_LIGHTS</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -5027,15 +5027,6 @@
                  width="1554"
                  height="873">
         <sheets>
-          <cpnsheet id="ID1412481693"
-                    panx="-129.000000"
-                    pany="114.000000"
-                    zoom="1.000000"
-                    instance="ID1412480111">
-            <zorder>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
           <cpnsheet id="ID1412878983"
                     panx="618.000000"
                     pany="1.000000"
@@ -5073,21 +5064,30 @@
             </zorder>
           </cpnsheet>
           <cpnsheet id="ID1413202339"
-                    panx="-7.000000"
-                    pany="5.000000"
+                    panx="-8.000000"
+                    pany="11.000000"
                     zoom="1.000000"
                     instance="ID1413199641">
             <zorder>
               <position value="0"/>
             </zorder>
           </cpnsheet>
+          <cpnsheet id="ID1412481693"
+                    panx="-129.000000"
+                    pany="114.000000"
+                    zoom="1.000000"
+                    instance="ID1412480111">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
         </sheets>
         <zorder>
+          <position value="1"/>
           <position value="2"/>
-          <position value="5"/>
           <position value="4"/>
           <position value="3"/>
-          <position value="1"/>
+          <position value="5"/>
           <position value="0"/>
         </zorder>
       </cpnbinder>
