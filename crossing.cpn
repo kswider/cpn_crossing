@@ -1577,6 +1577,62 @@
         </annot>
       </arc>
       <constraints/>
+      <Aux id="ID1414551310">
+        <posattr x="-210.000000"
+                 y="-237.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <label/>
+        <text>Road (1)</text>
+      </Aux>
+      <Aux id="ID1414551335">
+        <posattr x="-612.000000"
+                 y="168.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <label/>
+        <text>Road (2)</text>
+      </Aux>
+      <Aux id="ID1414551372">
+        <posattr x="336.000000"
+                 y="84.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <label/>
+        <text>Road (3)</text>
+      </Aux>
+      <Aux id="ID1414551421">
+        <posattr x="-84.000000"
+                 y="439.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <label/>
+        <text>Road (4)</text>
+      </Aux>
     </page>
     <page id="ID6">
       <pageattr name="Road"/>
@@ -2996,8 +3052,8 @@
                    currentcyckle="2"/>
         <transend idref="ID1412376951"/>
         <placeend idref="ID1412376892"/>
-        <annot id="ID1414550374">
-          <posattr x="-1003.000000"
+        <annot id="ID1414550443">
+          <posattr x="-1097.000000"
                    y="-96.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -4036,6 +4092,20 @@
         </annot>
       </arc>
       <constraints/>
+      <Aux id="ID1414551293">
+        <posattr x="-346.000000"
+                 y="294.000000"/>
+        <fillattr colour="White"
+                  pattern=""
+                  filled="false"/>
+        <lineattr colour="Black"
+                  thick="1"
+                  type="Solid"/>
+        <textattr colour="Black"
+                  bold="false"/>
+        <label/>
+        <text>Text</text>
+      </Aux>
     </page>
     <page id="ID1413199639">
       <pageattr name="TRAFFIC_LIGHTS"/>
@@ -4759,7 +4829,7 @@
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10005.enable">
+      <option name="extensions.10002.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -4769,17 +4839,7 @@
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10008.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10011.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10002.enable">
+      <option name="extensions.10005.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -4789,29 +4849,9 @@
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10007.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10004.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
       <option name="extensions.10001.enable">
         <value>
           <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10011.options.disable">
-        <value>
-          <boolean>false</boolean>
-        </value>
-      </option>
-      <option name="extensions.10007.options.discover">
-        <value>
-          <boolean>false</boolean>
         </value>
       </option>
       <option name="repavg">
@@ -5073,12 +5113,12 @@
           </cpnsheet>
         </sheets>
         <zorder>
-          <position value="3"/>
           <position value="2"/>
-          <position value="4"/>
-          <position value="5"/>
-          <position value="0"/>
           <position value="1"/>
+          <position value="3"/>
+          <position value="5"/>
+          <position value="4"/>
+          <position value="0"/>
         </zorder>
       </cpnbinder>
     </binders>
@@ -5146,21 +5186,9 @@
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-        </IndexNode>
-        <IndexNode expanded="false">
-          <IndexNode expanded="false"/>
-        </IndexNode>
-        <IndexNode expanded="false">
-          <IndexNode expanded="false"/>
         </IndexNode>
       </IndexNode>
-      <IndexNode expanded="false">
-        <IndexNode expanded="false"/>
-      </IndexNode>
+      <IndexNode expanded="false"/>
       <IndexNode expanded="true">
         <IndexNode expanded="false">
           <IndexNode expanded="true"/>
